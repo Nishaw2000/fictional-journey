@@ -1,0 +1,11 @@
+prefix=/workspaces/codespaces-jupyter/.conda
+exec_prefix=/workspaces/codespaces-jupyter/.conda
+libdir=/workspaces/codespaces-jupyter/.conda/lib
+includedir=/workspaces/codespaces-jupyter/.conda/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.32.1
+Requires:
+Cflags: -I${includedir}/uuid
+Libs: -L${libdir} -luuid
